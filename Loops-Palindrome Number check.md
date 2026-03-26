@@ -17,6 +17,29 @@ To write a Python program that checks whether a given number is a **palindrome**
 
 ## 🧾 Program
 Add code Here
+```
+num=int(input()) 
+
+rev=0 
+
+temp=num 
+
+while temp>0: 
+
+    rev=(10*rev)+temp%10 
+
+    temp//=10 
+
+    if rev==num: 
+
+        print("The given number {} is a Palindrome".format(num)) 
+
+    else: 
+
+        print("The given number {} is not a palindrome".format(num))
+```
 ## Output
+<img width="593" height="114" alt="image" src="https://github.com/user-attachments/assets/cb8f473c-0fd7-4a0f-9aaa-d654ae0f92ca" />
 
 ## Result
+Thus, the program has been successfully executed .
